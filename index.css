@@ -1,0 +1,186 @@
+body,html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.header{
+height: 50px;
+width: 100%;
+display: flex;
+}
+.headerContainer{
+    display: flex;
+    width: 60%;
+    /* background-color:antiquewhite; */
+    margin: 0 auto;
+}
+.headerLeftContainer{
+    display: flex;
+    margin-right: auto;
+}
+.headerRightContainer{
+    display: flex;
+ margin-left: auto;
+ 
+ 
+}
+.headerRightContainer p {
+    margin-left: 15px;
+}
+ .fas {
+    margin-right: 5px;
+
+}
+.logoSpan {
+ height: 100%;
+
+}
+
+.logoSpan img {
+    height: 100%;
+    object-fit: cover;
+}
+.sloganSpan {
+margin-left: 20px;
+}
+
+.menu{
+background-color: #3f979f;
+color: white;
+}
+
+.envelope{
+    margin-right: 10px;
+    
+ 
+}
+#emailNav{
+    color: black;
+    text-decoration: none;
+}
+
+.aboutContainer{
+    width: 100%;
+    height: 200px;
+  
+    background-color: #3f979f;
+    position: relative;
+}
+.aboutTitle{
+    color: white;
+    font-size: 2rem;
+    list-style-type: none;
+padding: 50px 275px 0px ;
+}
+.navigation{
+    display: flex;
+    list-style-type: none;
+ width: 100%;
+ background-color: #1e2736;
+ height: 40px;
+ position: absolute;
+ bottom: 0;
+
+}
+.aboutUs a,.managementTeam a, .location a, .pearsonVUE a,.genderPayGapReport a{
+    color: black;
+    text-decoration: none;
+  
+}
+.aboutUs{
+    height: 100%;
+}
+
+.navBar{
+    display: flex;
+    /* padding: 10px 270px; */
+    margin-left: 270px;
+
+
+    
+}
+.aboutUs:hover,.managementTeam:hover, .location:hover,.pearsonVUE:hover,.genderPayGapReport:hover {
+background-color: rgb(162, 171, 179);
+
+
+}
+.managementTeam, .location, .pearsonVUE,.genderPayGapReport{
+    /* margin-left: 20px; */
+   
+}
+#navTitle{
+    margin-top: 10px;
+    color: white;
+    margin:10px 10px
+}
+.directionStyle{
+    color: rgb(185, 116, 116);
+}
+.navActive{
+    background-color: rgb(162, 171, 179);
+}
+.diectionContainer{
+    display: flex;
+}
+.directionTitle{
+    margin-left: 285px;
+}
+.directionAbout{
+    color:rgb(162, 171, 179);
+    margin-left: 5px;
+}
+.aboutdetailContainer{
+    width: 60%;
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+}
+.ourImage{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+.ourImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.ourMission {
+    width: 50%;
+    height: 100%;
+        float: left;
+        color: rgb(102, 108, 114);
+        padding: 10px;
+}
+.ourMissionTitle{
+    color: black;
+}
+
+.whatWeDoContainer{
+    width: 100%;
+    height: 500px;
+    background-color: #d4dcdd;
+    position: relative;
+
+}
+
+ .ourExperience{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: url('size_p_5_0.jpg');
+height: 60%;
+object-fit: cover;
+
+ }
+/* .ourExperience img{
+    width: 100%;
+} */
+.whatWeDoTitle{
+padding-top: 20px;
+    text-align: center;
+}
