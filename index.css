@@ -60,7 +60,7 @@ color: white;
     
  
 }
-#emailNav{
+#emailNavDiv{
     color: black;
     text-decoration: none;
 }
@@ -140,18 +140,23 @@ background-color: rgb(162, 171, 179);
     display: flex;
     height: 300px;
     margin: 0 auto;
+    
+
 }
 .ourImage{
     width: 50%;
     height: 100%;
     float: left;
     padding: 10px;
+    display: flex;
+
+
 }
 .ourImage img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-
+ 
 }
 .ourMission {
     width: 50%;
@@ -159,6 +164,7 @@ background-color: rgb(162, 171, 179);
         float: left;
         color: rgb(102, 108, 114);
         padding: 10px;
+       
 }
 .ourMissionTitle{
     color: black;
@@ -218,6 +224,7 @@ margin-top: 50px;
     display: flex;
     justify-content:flex-end;
     margin-right: 40px;
+    margin-bottom: 20px;
 }
 #backToTopIcon img{
     border-radius: 50px;
@@ -252,7 +259,7 @@ width: 100%;
 }
 .footerContainer{
 
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     color: white;
@@ -272,6 +279,7 @@ width: 100%;
     margin-top: 10px;
 
 }
+
 #social{
 
 
@@ -311,4 +319,89 @@ width: 100%;
     }
     #social a i:hover{
         transform:translate(0,-15px);
+    }
+
+    .footerLogo{
+        width: 100%;
+    }
+
+
+    .footerContactUsUnderline{
+        width: 25%;
+        border-bottom: 2px solid #3f979f;
+    }
+    .softwareTestingTitle,.ourMissionTitle,.footerContactUsTitle,.whatWeDoTitle{
+        width: 100%;
+    }
+    .softwareTestingUnderLine{
+        border-bottom: 2px solid #3f979f;
+        width: 10%;
+    }
+    .ourMissionUnderLine{
+        border-bottom: 2px solid #3f979f;
+        width: 15%;
+    }
+    .whatWeDoUnderLine{
+        border-bottom: 2px solid #3f979f;
+        width: 5%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+.borderTop{
+    border-bottom: 0.05rem solid #bebebe;;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+    .copyRights{
+    
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+    @media (max-width: 1000px){
+        .aboutdetailContainer,.ourExperienceText {
+          display: none;
+        }
+      
+      }
+      @media (max-width: 700px){
+        .leftBox,.centerBox,.copyRights{
+          display: none;
+        }
+        
+     
+      }
+      @media (max-width: 910px){
+     
+        .navBar{
+            margin-left: 0px;
+        }   
+      .aboutTitle{
+        padding: 50px 100px ;
+      }
+     
+        .header{
+            height: 75px;
+            
+        }
+        .directionTitle{
+            margin-left: 10px;
+        }
+        .leftBox {
+            display: none;
+          }
+          .navigation{
+              height: 60px;
+          }
+          .headerLeftContainer{
+              display: none;
+          }
+      }
+    .manuTitle a{
+ padding-right: 15px;
+ text-decoration: none;
+ color: white;
     }
