@@ -399,9 +399,14 @@ width: 100%;
           .headerLeftContainer{
               display: none;
           }
+          .whatWeDoContainer{
+              height: 400px;
+          }
       }
     .manuTitle a{
  padding-right: 15px;
  text-decoration: none;
  color: white;
     }
+
+ 
